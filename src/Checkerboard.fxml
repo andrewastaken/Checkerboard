@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane fx:id="board" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Rectangle fx:id="sqr0_0" fill="#f1d9c0" height="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr0_1" fill="#a97a65" height="100.0" layoutX="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr0_2" fill="#f1d9c0" height="100.0" layoutX="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr0_3" fill="#a97a65" height="100.0" layoutX="300.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr0_4" fill="#f1d9c0" height="100.0" layoutX="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr0_5" fill="#a97a65" height="100.0" layoutX="500.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr0_6" fill="#f1d9c0" height="100.0" layoutX="600.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr0_7" fill="#a97a65" height="100.0" layoutX="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr1_0" fill="#a97a65" height="100.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr1_1" fill="#f1d9c0" height="100.0" layoutX="100.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr1_2" fill="#a97a65" height="100.0" layoutX="200.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr1_3" fill="#f1d9c0" height="100.0" layoutX="300.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr1_4" fill="#a97a65" height="100.0" layoutX="400.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr1_5" fill="#f1d9c0" height="100.0" layoutX="500.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr1_6" fill="#a97a65" height="100.0" layoutX="600.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr1_7" fill="#f1d9c0" height="100.0" layoutX="700.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr2_0" fill="#f1d9c0" height="100.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr2_1" fill="#a97a65" height="100.0" layoutX="100.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr2_2" fill="#f1d9c0" height="100.0" layoutX="200.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr2_3" fill="#a97a65" height="100.0" layoutX="300.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr2_4" fill="#f1d9c0" height="100.0" layoutX="400.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr2_5" fill="#a97a65" height="100.0" layoutX="500.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr2_6" fill="#f1d9c0" height="100.0" layoutX="600.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr2_7" fill="#a97a65" height="100.0" layoutX="700.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr3_0" fill="#a97a65" height="100.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr3_1" fill="#f1d9c0" height="100.0" layoutX="100.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr3_2" fill="#a97a65" height="100.0" layoutX="200.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr3_3" fill="#f1d9c0" height="100.0" layoutX="300.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr3_4" fill="#a97a65" height="100.0" layoutX="400.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr3_5" fill="#f1d9c0" height="100.0" layoutX="500.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr3_6" fill="#a97a65" height="100.0" layoutX="600.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr3_7" fill="#f1d9c0" height="100.0" layoutX="700.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr4_0" fill="#f1d9c0" height="100.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr4_1" fill="#a97a65" height="100.0" layoutX="100.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr4_2" fill="#f1d9c0" height="100.0" layoutX="200.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr4_3" fill="#a97a65" height="100.0" layoutX="300.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr4_4" fill="#f1d9c0" height="100.0" layoutX="400.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr4_5" fill="#a97a65" height="100.0" layoutX="500.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr4_6" fill="#f1d9c0" height="100.0" layoutX="600.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr4_7" fill="#a97a65" height="100.0" layoutX="700.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr5_0" fill="#a97a65" height="100.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr5_1" fill="#f1d9c0" height="100.0" layoutX="100.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr5_2" fill="#a97a65" height="100.0" layoutX="200.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr5_3" fill="#f1d9c0" height="100.0" layoutX="300.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr5_4" fill="#a97a65" height="100.0" layoutX="400.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr5_5" fill="#f1d9c0" height="100.0" layoutX="500.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr5_6" fill="#a97a65" height="100.0" layoutX="600.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr5_7" fill="#f1d9c0" height="100.0" layoutX="700.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr6_0" fill="#f1d9c0" height="100.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr6_1" fill="#a97a65" height="100.0" layoutX="100.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr6_2" fill="#f1d9c0" height="100.0" layoutX="200.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr6_3" fill="#a97a65" height="100.0" layoutX="300.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr6_4" fill="#f1d9c0" height="100.0" layoutX="400.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr6_5" fill="#a97a65" height="100.0" layoutX="500.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr6_6" fill="#f1d9c0" height="100.0" layoutX="600.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr6_7" fill="#a97a65" height="100.0" layoutX="700.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr7_0" fill="#a97a65" height="100.0" layoutY="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr7_1" fill="#f1d9c0" height="100.0" layoutX="100.0" layoutY="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr7_2" fill="#a97a65" height="100.0" layoutX="200.0" layoutY="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr7_3" fill="#f1d9c0" height="100.0" layoutX="300.0" layoutY="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr7_4" fill="#a97a65" height="100.0" layoutX="400.0" layoutY="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr7_5" fill="#f1d9c0" height="100.0" layoutX="500.0" layoutY="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr7_6" fill="#a97a65" height="100.0" layoutX="600.0" layoutY="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <Rectangle fx:id="sqr7_7" fill="#f1d9c0" height="100.0" layoutX="700.0" layoutY="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="100.0" />
+      <ImageView fx:id="bp2" fitHeight="100.0" fitWidth="100.0" layoutX="101.0" layoutY="100.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bp8" fitHeight="100.0" fitWidth="100.0" layoutX="701.0" layoutY="100.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bp7" fitHeight="100.0" fitWidth="100.0" layoutX="601.0" layoutY="100.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bp6" fitHeight="100.0" fitWidth="100.0" layoutX="501.0" layoutY="100.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bp5" fitHeight="100.0" fitWidth="100.0" layoutX="401.0" layoutY="100.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bp4" fitHeight="100.0" fitWidth="100.0" layoutX="301.0" layoutY="100.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bp3" fitHeight="100.0" fitWidth="100.0" layoutX="201.0" layoutY="100.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bp1" fitHeight="100.0" fitWidth="100.0" layoutX="1.0" layoutY="100.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="br1" fitHeight="100.0" fitWidth="100.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/br.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="br2" fitHeight="100.0" fitWidth="100.0" layoutX="700.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/br.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <ImageView fx:id="bn1" fitHeight="100.0" fitWidth="100.0" layoutX="100.0" layoutY="4.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bn.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bn2" fitHeight="100.0" fitWidth="100.0" layoutX="600.0" layoutY="4.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bn.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bb1" fitHeight="100.0" fitWidth="100.0" layoutX="202.0" layoutY="2.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bb.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bb2" fitHeight="100.0" fitWidth="100.0" layoutX="502.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bb.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bq" fitHeight="100.0" fitWidth="100.0" layoutX="300.0" layoutY="6.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bq.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bk" fitHeight="100.0" fitWidth="100.0" layoutX="401.0" layoutY="2.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/bk.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wp7" fitHeight="100.0" fitWidth="100.0" layoutX="601.0" layoutY="600.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wp6" fitHeight="100.0" fitWidth="100.0" layoutX="501.0" layoutY="600.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wp5" fitHeight="100.0" fitWidth="100.0" layoutX="401.0" layoutY="600.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wp4" fitHeight="100.0" fitWidth="100.0" layoutX="301.0" layoutY="600.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wp3" fitHeight="100.0" fitWidth="100.0" layoutX="201.0" layoutY="600.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wp2" fitHeight="100.0" fitWidth="100.0" layoutX="101.0" layoutY="600.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wp1" fitHeight="100.0" fitWidth="100.0" layoutX="1.0" layoutY="600.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wp8" fitHeight="100.0" fitWidth="100.0" layoutX="700.0" layoutY="600.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wk" fitHeight="100.0" fitWidth="100.0" layoutX="401.0" layoutY="700.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wk.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wq" fitHeight="100.0" fitWidth="100.0" layoutX="300.0" layoutY="703.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wq.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wb1" fitHeight="100.0" fitWidth="100.0" layoutX="201.0" layoutY="700.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wb.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wn1" fitHeight="100.0" fitWidth="100.0" layoutX="101.0" layoutY="700.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wn.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wr1" fitHeight="100.0" fitWidth="100.0" layoutX="1.0" layoutY="700.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wr2" fitHeight="100.0" fitWidth="100.0" layoutX="701.0" layoutY="700.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wn2" fitHeight="100.0" fitWidth="100.0" layoutX="601.0" layoutY="700.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wn.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wb2" fitHeight="100.0" fitWidth="100.0" layoutX="503.0" layoutY="700.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/wb.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
